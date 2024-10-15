@@ -278,7 +278,7 @@ Here I used the function "par()" to create a multi-panel figure of 2x1 with the 
 
 
 ```r
-par(mfrow = c(2,1), mar = c(2.1, 2.1, 2.1, 2.1)) 
+par(mfrow = c(2,1), mar = c(4.1, 4.1, 1.5, 2.1)) 
 plot(steps_perinterval_weekends, 
      xlab="5-min interval",
      ylab= "Number of steps", 
